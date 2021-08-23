@@ -8,4 +8,12 @@ pipeline{
       }
     }
   }
+  stages{
+    stage(""){
+      steps{
+        echo"This is second echo message"
+      
+      }
+    }
+  }
 }
